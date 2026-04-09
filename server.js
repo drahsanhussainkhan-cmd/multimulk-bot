@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 app.use(express.json());
-
+import "dotenv/config";
 const WAZZUP_API_KEY = process.env.WAZZUP_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
